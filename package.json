@@ -1,8 +1,8 @@
 {
   "name": "agriculture",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
+    "build": "rm -rf dist && tsc",
     "test": "jest"
   },
   "keywords": [],
